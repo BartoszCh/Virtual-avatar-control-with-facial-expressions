@@ -1,0 +1,242 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pl' Physical Memory: 32609 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Projects/FacialExpressionsAvatarControl
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49475
+Successfully changed project path to: D:/Projects/FacialExpressionsAvatarControl
+D:/Projects/FacialExpressionsAvatarControl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3724] Host "[IP] 172.19.32.1 [Port] 0 [Flags] 2 [Guid] 1216138968 [EditorId] 1216138968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HL9MHHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3724] Host "[IP] 172.19.32.1 [Port] 0 [Flags] 2 [Guid] 1216138968 [EditorId] 1216138968 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HL9MHHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 9.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/FacialExpressionsAvatarControl/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002573 seconds.
+- Loaded All Assemblies, in  0.358 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 576ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Packages/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 4.59 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 821ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2604 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 3040.
+Memory consumption went from 122.7 MB to 121.4 MB.
+Total: 6.650000 ms (FindLiveObjects: 0.167700 ms CreateObjectMapping: 0.103300 ms MarkObjects: 6.031600 ms  DeleteObjects: 0.346400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraManager.cs: efa49515d521c118282ca7f85f908717 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HeadRotator.cs: 0ac38336836fa8b08e54df4e053bf5f4 -> 
+  custom:scripting/monoscript/fileName/HeadCullingFPS.cs: e30b4f9eb38bc3b01d6c204703549632 -> 
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5c0816849d186432ffce5e360c37577f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1239475.991820 seconds.
+  path: Assets/Materials/coverMouth.mat
+  artifactKey: Guid(6b3959e51442c9a42a10fe861d8900b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/coverMouth.mat using Guid(6b3959e51442c9a42a10fe861d8900b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80fdf9467a3a848895ffaf5df4ad9ff') in 0.093843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.073882 seconds.
+  path: Assets/Textures/potsdamer_platz_1k.jpg
+  artifactKey: Guid(000d1f1b3b7a6f044be4c441cad57c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/potsdamer_platz_1k.jpg using Guid(000d1f1b3b7a6f044be4c441cad57c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5313794e98740be265b51bc60cb5e25d') in 0.047371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.147463 seconds.
+  path: Assets/Textures/cafe/cafe_basetable_normal.png
+  artifactKey: Guid(52ba39410216c6f4d931b17f7a938576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_basetable_normal.png using Guid(52ba39410216c6f4d931b17f7a938576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b436e09645909df51034dd979527c140') in 0.044781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/cafe/cafe_chair_diffuse.png
+  artifactKey: Guid(a82193b5be1af9b4682b1b2ae9920072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_chair_diffuse.png using Guid(a82193b5be1af9b4682b1b2ae9920072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b896c2970b3d378455823bcdd4e936') in 0.014665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/cafe/cafe_column_normal.png
+  artifactKey: Guid(a31140afe83bb514592c1fe8565e79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_column_normal.png using Guid(a31140afe83bb514592c1fe8565e79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc028598ce63a9c86a490f9c6b7dc41c') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/cafe/cafe_door_rough.png
+  artifactKey: Guid(b2fb88c9b084a824fa069bc2ddd6533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_door_rough.png using Guid(b2fb88c9b084a824fa069bc2ddd6533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb77af0f073ec6a03d4c3dc9eed5408') in 0.017475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/cafe/cafe_column.png
+  artifactKey: Guid(f33854b505ad94a4b8a3c9ffa33798f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_column.png using Guid(f33854b505ad94a4b8a3c9ffa33798f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3904e9e1b28d252a1091a4cf1c0929e') in 0.011270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Textures/cafe/cafe_misc_rough.png
+  artifactKey: Guid(c59955290a237a54ebb5e277a2d2f6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_misc_rough.png using Guid(c59955290a237a54ebb5e277a2d2f6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd865acb0cfe2a89f5cb8f561f7d53d45') in 0.097936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

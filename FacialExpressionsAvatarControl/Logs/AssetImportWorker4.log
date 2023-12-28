@@ -1,0 +1,282 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pl' Physical Memory: 32609 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Projects/FacialExpressionsAvatarControl
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49475
+Successfully changed project path to: D:/Projects/FacialExpressionsAvatarControl
+D:/Projects/FacialExpressionsAvatarControl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9224] Host "[IP] 172.19.32.1 [Port] 0 [Flags] 2 [Guid] 2569570549 [EditorId] 2569570549 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HL9MHHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9224] Host "[IP] 172.19.32.1 [Port] 0 [Flags] 2 [Guid] 2569570549 [EditorId] 2569570549 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HL9MHHO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/FacialExpressionsAvatarControl/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002199 seconds.
+- Loaded All Assemblies, in  0.369 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/Packages/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 6.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2604 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 3040.
+Memory consumption went from 122.8 MB to 121.5 MB.
+Total: 6.796600 ms (FindLiveObjects: 0.370000 ms CreateObjectMapping: 0.080900 ms MarkObjects: 6.083100 ms  DeleteObjects: 0.261200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CameraManager.cs: efa49515d521c118282ca7f85f908717 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HeadRotator.cs: 0ac38336836fa8b08e54df4e053bf5f4 -> 
+  custom:scripting/monoscript/fileName/HeadCullingFPS.cs: e30b4f9eb38bc3b01d6c204703549632 -> 
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5c0816849d186432ffce5e360c37577f -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1239475.991411 seconds.
+  path: Assets/Materials/clotesHide.mat
+  artifactKey: Guid(8ee11c4d6498a6b4db1f72d0ea12c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/clotesHide.mat using Guid(8ee11c4d6498a6b4db1f72d0ea12c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66c86cfa0fd421f9011eb89d13cdc6f') in 0.087012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.814012 seconds.
+  path: Assets/Materials/ManuelBastioni/female
+  artifactKey: Guid(eaa332871d9ce314eb7363d1c636b14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ManuelBastioni/female using Guid(eaa332871d9ce314eb7363d1c636b14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1ac3d5ef5ef4cfc84b37e44bb4a623') in 0.000404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.621837 seconds.
+  path: Assets/Materials/ManuelBastioni/male
+  artifactKey: Guid(eb394a1b205ccad44abbd8b40f0269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ManuelBastioni/male using Guid(eb394a1b205ccad44abbd8b40f0269ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4ba565f5705281abd7d282ffe5c59') in 0.000304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.642656 seconds.
+  path: Assets/Textures/hideTex.png
+  artifactKey: Guid(926fb4cb2bed83f4199f8827aabb3c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/hideTex.png using Guid(926fb4cb2bed83f4199f8827aabb3c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bc01041541936a41d772f4839c5acc') in 0.047350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.123696 seconds.
+  path: Assets/Textures/cafe
+  artifactKey: Guid(fe64ca00dc9d1a24faaf9f2ecfcd5761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe using Guid(fe64ca00dc9d1a24faaf9f2ecfcd5761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a80f45d3b9564b7ff36221d2d19dd0') in 0.000438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022969 seconds.
+  path: Assets/Textures/cafe/cafe_basetable_diffuse.png
+  artifactKey: Guid(3fb1af1099fde594da3efabe3d97fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_basetable_diffuse.png using Guid(3fb1af1099fde594da3efabe3d97fdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d482a9ddeb6202d5a164e961269bd4a') in 0.010782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012789 seconds.
+  path: Assets/Textures/cafe/cafe_building.png
+  artifactKey: Guid(033d1acfe9741444f9f794d9a7148007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_building.png using Guid(033d1acfe9741444f9f794d9a7148007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd93edd0cb4fc7066e24a48b4ab4cac') in 0.056443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Textures/cafe/cafe_counter_rough.png
+  artifactKey: Guid(cdc97a6e47bc42c4ca348b5cb55b283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_counter_rough.png using Guid(cdc97a6e47bc42c4ca348b5cb55b283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbd6398037da719a3e6948d9a8c3989') in 0.018206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/cafe/cafe_lamp_normal.png
+  artifactKey: Guid(ac168986003f441488879c78d59e41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_lamp_normal.png using Guid(ac168986003f441488879c78d59e41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363231c65c18e844f7f06cd1d91f93a3') in 0.023308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Textures/cafe/cafe_door.png
+  artifactKey: Guid(b49c8edd2cfe27748bc42dc9402e6124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_door.png using Guid(b49c8edd2cfe27748bc42dc9402e6124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fc55ed67746ba1fa57bee87332d7ef') in 0.019439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Textures/cafe/cafe_building_wall.jpg
+  artifactKey: Guid(dbe7096a7f00ab841abfcbde29aaaac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_building_wall.jpg using Guid(dbe7096a7f00ab841abfcbde29aaaac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbf0f69841c9e1425205638b449fcbb') in 0.012872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039408 seconds.
+  path: Assets/Textures/cafe/cafe_woodplank_diffuse.png
+  artifactKey: Guid(c41b58fab1b26c84a98826cb1c0b23f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cafe/cafe_woodplank_diffuse.png using Guid(c41b58fab1b26c84a98826cb1c0b23f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fb03855f9594946ea207ca920c6ea6') in 0.007955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.638770 seconds.
+  path: Assets/Textures/ManuelBastioni
+  artifactKey: Guid(3cc40ebbc6e4a004abca8add50bb4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ManuelBastioni using Guid(3cc40ebbc6e4a004abca8add50bb4a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da60a2875c65e479fc3f28ec1f49fe31') in 0.000455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
